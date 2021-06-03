@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Weather</title>
+</head>
+<link rel="icon" href="/img/weather.png">
+<link rel='stylesheet' href='/css/style.css'>
+
+<body>
+  <div class="main-content" >
+      {{>header}}
+      <form>
+    <input placeholder="Location Name">
+    <button>
+      Search
+    </button>
+  </form>
+  <p id='message-1'></p>
+  <p id='message-2'></p>
+  </div>
+   {{>footer}}
+   <script src="/script/app.js"> </script>
+   </body>
+</html>
